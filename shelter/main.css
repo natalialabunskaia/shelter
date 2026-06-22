@@ -28,6 +28,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-weight: 400;
@@ -242,6 +246,8 @@ h4 {
 }
 
 .about__text {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: Arial;
   font-weight: 400;
@@ -249,6 +255,7 @@ h4 {
   line-height: 160%;
   letter-spacing: 0px;
   color: var(--color-dark-xl);
+  gap: 25px;
 }
 
 .pets {
@@ -270,6 +277,7 @@ h4 {
 
 .pets__title {
   grid-area: "title";
+  text-align: center;
 }
 
 .pets__slider {
@@ -299,6 +307,8 @@ h4 {
   align-items: center;
   background-color: var(--color-light-s);
   padding-bottom: 30px;
+  gap: 30px;
+  border-radius: 9px;
 }
 
 .card__button {
@@ -343,6 +353,10 @@ h4 {
   gap: 60px;
 }
 
+.help__container h3 {
+  text-align: center;
+}
+
 .help__list {
   display: flex;
   flex-wrap: wrap;
@@ -382,7 +396,7 @@ h4 {
   gap: 20px;
 }
 
-.donation__content h5 {
+.donation__bank {
   font-family: Georgia;
   font-weight: 400;
   font-size: 15px;
