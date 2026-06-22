@@ -269,13 +269,13 @@ h4 {
 }
 
 .pets__title {
-  grid-area: 'title';
+  grid-area: "title";
 }
 
 .pets__slider {
   display: grid;
   grid-template-columns: 52px minmax(0, 1fr) 52px;
-  grid-template-areas: 'controls-left cards controls-right';
+  grid-template-areas: "controls-left cards controls-right";
   align-items: center;
   column-gap: 53px;
 }
@@ -428,7 +428,8 @@ h4 {
   gap: 160px;
 }
 
-.footer__contacts, .footer__locations {
+.footer__contacts,
+.footer__locations {
   display: flex;
   flex-direction: column;
   justify-content: space-around;

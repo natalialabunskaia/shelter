@@ -1,0 +1,28 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "RSS school project",
+  "homepage": "https://github.com/natalialabunskaia/shelter#readme",
+  "bugs": {
+    "url": "https://github.com/natalialabunskaia/shelter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalialabunskaia/shelter.git"
+  },
+  "license": "ISC",
+  "author": "Natalia Illarionova",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "17.6.0",
+    "prettier": "3.8.4"
+  }
+}
