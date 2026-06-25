@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./pets.css" />
+    <title>Our pets</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <nav class="navigation" aria-label="main-navigation">
+          <div class="navigation__container">
+            <div class="navigation__logo">
+              <h1 class="logo__title">Cozy House</h1>
+              <p class="logo__text">Shelter for pets in Boston</p>
+            </div>
+            <ul class="navigation__list">
+              <li>
+                <a class="navigation__link" href="./index.html#about"
+                  >About the shelter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navigation__link navigation__link--active"
+                  href="#pets"
+                  >Our Pets</a
+                >
+              </li>
+              <li>
+                <a class="navigation__link" href="./index.html#help"
+                  >Help the shelter</a
+                >
+              </li>
+              <li><a class="navigation__link" href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="pets">
+        <div class="pets__container">
+          <h3 class="pets__title">
+            Our friends who<br />are looking for a house
+          </h3>
+          <div class="pets__slider">
+            <div class="cards">
+              <article class="card" id="katrine">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-katrine.png"
+                  alt="A gray British Shorthair cat standing with its tail raised"
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Katrine</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+              <article class="card" id="jennifer">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-jennifer.png"
+                  alt="A cream-colored puppy sitting on the floor and looking to the side."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Jennifer</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+              <article class="card" id="woody">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-woody.png"
+                  alt="A golden retriever lying down and looking forward."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Woody</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+              <article class="card" id="sophia">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-sophia.png"
+                  alt="A white and brown Shih Tzu dog lying on a dark blanket."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Sophia</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+
+              <article class="card" id="timmy">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-timmy.png"
+                  alt="A gray striped cat sitting and looking forward."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Timmy</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+
+              <article class="card" id="charly">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-charly.png"
+                  alt="A brown and white dog lying down and looking forward."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Charly</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+
+              <article class="card" id="scarlett">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-scarlett.png"
+                  alt="A small white and brown puppy standing and looking forward."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Scarlett</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+
+              <article class="card" id="freddie">
+                <img
+                  class="card__image"
+                  src="./assets/pets/pets-freddie.png"
+                  alt="A light gray striped cat sitting and looking forward."
+                  width="270"
+                  height="270"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+                <h4>Freddie</h4>
+                <button class="btn card__button">Learn more</button>
+              </article>
+            </div>
+          </div>
+          <div class="pagination__container">
+            <button
+              class="btn pagination__button pagination__button--first pagination__button--disabled"
+            >
+              &lt;&lt;
+            </button>
+
+            <button
+              class="btn pagination__button pagination__button--prev pagination__button--disabled"
+            >
+              &lt;
+            </button>
+
+            <button class="btn pagination__button pagination__button--current">
+              1
+            </button>
+
+            <button class="btn pagination__button pagination__button--next">
+              &gt;
+            </button>
+
+            <button class="btn pagination__button pagination__button--last">
+              &gt;&gt;
+            </button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contacts">
+        <div class="footer__container">
+          <section class="footer__contacts">
+            <h3 class="footer__title">For questions and suggestions</h3>
+
+            <a class="footer__link" href="mailto:email@shelter.com">
+              <img
+                src="./assets/icons/icon-email.svg"
+                alt=""
+                width="40"
+                height="32"
+              />
+              <span>email@shelter.com</span>
+            </a>
+
+            <a class="footer__link" href="tel:+136745677554">
+              <img
+                src="./assets/icons/phone.png"
+                alt=""
+                width="40"
+                height="32"
+              />
+              <span>+13 674 567 75 54</span>
+            </a>
+          </section>
+
+          <section class="footer__locations">
+            <h3 class="footer__title">We are waiting for your visit</h3>
+
+            <a
+              class="footer__link"
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/icons/icon-marker.png"
+                alt=""
+                width="22"
+                height="32"
+              />
+              <span
+                >1 Central Street, Boston<br />(entrance from the store)</span
+              >
+            </a>
+
+            <a
+              class="footer__link"
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/icons/icon-marker.png"
+                alt=""
+                width="22"
+                height="32"
+              />
+              <span>18 South Park, London</span>
+            </a>
+          </section>
+          <img
+            class="footer__picture"
+            src="./assets/pets/footer-puppy.png"
+            alt="Golden retriever puppy with its tongue out, raising a paw as if waving"
+            width="300"
+            height="310"
+            loading="lazy"
+            fetchpriority="low"
+          />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
