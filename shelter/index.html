@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./main.css" />
     <title>Cozy House</title>
@@ -12,6 +12,7 @@
       <div class="start-screen">
         <header>
           <nav class="navigation" aria-label="main-navigation">
+            <div class="navigation__container">
             <div class="navigation__logo">
               <h1 class="logo__title">Cozy House</h1>
               <p class="logo__text">Shelter for pets in Boston</p>
@@ -24,12 +25,19 @@
                   >About the shelter</a
                 >
               </li>
-              <li><a class="navigation__link" href="http://127.0.0.1:5500/shelter/pets.html#pets">Our Pets</a></li>
+              <li>
+                <a
+                  class="navigation__link"
+                  href="/pets.html#pets"
+                  >Our Pets</a
+                >
+              </li>
               <li>
                 <a class="navigation__link" href="#help">Help the shelter</a>
               </li>
               <li><a class="navigation__link" href="#contacts">Contacts</a></li>
             </ul>
+            </div>
           </nav>
         </header>
         <section class="hero">
@@ -40,7 +48,7 @@
               extremely<br />wide and open heart. He or she will love you more
               than anybody else<br />in the world, you will see!
             </p>
-            <button class="btn btn-primary hero__btn">Make a friend</button>
+            <a class="btn btn-primary hero__btn" href="./pets.html#pets">Make a friend</a>
           </div>
           <img
             class="hero__image"
@@ -132,75 +140,6 @@
                     fetchpriority="low"
                   />
                   <h4>Woody</h4>
-                  <button class="btn card__button">Learn more</button>
-                </article>
-                <article class="card" id="sophia">
-                  <img
-                    class="card__image"
-                    src="./assets/pets/pets-sophia.png"
-                    alt="A white and brown Shih Tzu dog lying on a dark blanket."
-                    width="270"
-                    height="270"
-                    loading="lazy"
-                    fetchpriority="low"
-                  />
-                  <h4>Sophia</h4>
-                  <button class="btn card__button">Learn more</button>
-                </article>
-
-                <article class="card" id="timmy">
-                  <img
-                    class="card__image"
-                    src="./assets/pets/pets-timmy.png"
-                    alt="A gray striped cat sitting and looking forward."
-                    width="270"
-                    height="270"
-                    loading="lazy"
-                    fetchpriority="low"
-                  />
-                  <h4>Timmy</h4>
-                  <button class="btn card__button">Learn more</button>
-                </article>
-
-                <article class="card" id="charly">
-                  <img
-                    class="card__image"
-                    src="./assets/pets/pets-charly.png"
-                    alt="A brown and white dog lying down and looking forward."
-                    width="270"
-                    height="270"
-                    loading="lazy"
-                    fetchpriority="low"
-                  />
-                  <h4>Charly</h4>
-                  <button class="btn card__button">Learn more</button>
-                </article>
-
-                <article class="card" id="scarlett">
-                  <img
-                    class="card__image"
-                    src="./assets/pets/pets-scarlett.png"
-                    alt="A small white and brown puppy standing and looking forward."
-                    width="270"
-                    height="270"
-                    loading="lazy"
-                    fetchpriority="low"
-                  />
-                  <h4>Scarlett</h4>
-                  <button class="btn card__button">Learn more</button>
-                </article>
-
-                <article class="card" id="freddie">
-                  <img
-                    class="card__image"
-                    src="./assets/pets/pets-freddie.png"
-                    alt="A light gray striped cat sitting and looking forward."
-                    width="270"
-                    height="270"
-                    loading="lazy"
-                    fetchpriority="low"
-                  />
-                  <h4>Freddie</h4>
                   <button class="btn card__button">Learn more</button>
                 </article>
               </div>

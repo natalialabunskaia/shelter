@@ -32,18 +32,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.page {
+  width: 1280px;
+  margin: 0 auto;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-weight: 400;
-  letter-spacing: 0px;
-  margin: 0;
 }
 
 h1 {
   font-family: Georgia, serif;
   font-weight: 400;
   font-size: 32px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   line-height: 110%;
   color: var(--color-dark-l);
 }
@@ -53,7 +56,6 @@ h2 {
   font-size: 44px;
   font-weight: 400;
   line-height: 130%;
-  letter-spacing: 0%;
   color: var(--color-light-xl);
 }
 
@@ -62,7 +64,7 @@ h3 {
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--color-dark-l);
 }
 
@@ -71,14 +73,9 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   text-align: center;
   color: var(--color-dark-l);
-}
-
-.page {
-  width: 1280px;
-  margin: 0 auto;
 }
 
 .btn {
@@ -186,7 +183,7 @@ h4 {
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--color-dark-3xl);
 }
 
@@ -267,5 +264,5 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
